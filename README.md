@@ -1,0 +1,4 @@
+# Updated-Haptic-Stylus-Pen-Console-Application
+This is a C++ console application that was created to track ArUco markers present within a webcam frame in real-time. It detects the markers within the frame, and overlays XYZ axes overtop of them to display their orientation in the world-space relative to the webcam.
+
+I have copied over all the functions onto the main.cpp file just to have everything on one file, that way it is the only file that needs to be uploaded. To work on this project you need to configure your workspace accordingly. This is a C++ console application. You need to download the relevant github repositories as well, specifically the ArUco Library repositories that allow you to work with ArUco markers. There are a few prebuilt functions that this code calls upon so the relevant header files need to be present.
